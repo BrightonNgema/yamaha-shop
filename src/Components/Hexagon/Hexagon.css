@@ -1,0 +1,86 @@
+/* Hex Stying Start */
+svg g {
+    fill: #000;
+    fill-opacity: 1;
+}
+
+svg g #svg_id {
+    fill: yellow !important;
+}
+
+svg g polygon {
+    stroke: #989898;
+    stroke-width: 0.35;
+    transition: fill-opacity 0.5s;
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style > g > polygon + text {
+    pointer-events: none;
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style.world > g > polygon:hover {
+    fill: url(#world1);
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style.golfcarts > g > polygon:hover {
+    fill: url(#golf1);
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style.marine > g > polygon:hover {
+    fill: url(#marine1);
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style.music > g > polygon:hover {
+    fill: url(#music1);
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style.homeaudio > g > polygon:hover {
+    fill: url(#homeaudio1);
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style.motorbike > g > polygon:hover {
+    fill: url(#motorbike1);
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style.shop > g > polygon:hover {
+    fill: url(#shop1);
+}
+
+svg > g > g.hexagon-group.hexagon-standard-style.pro-audio > g > polygon:hover {
+    fill: url(#proaudio1);
+}
+
+svg
+    > g
+    > g.hexagon-group.hexagon-standard-style.power-product
+    > g
+    > polygon:hover {
+    fill: url(#power1);
+}
+
+.yamaha-hexagon-grid {
+    z-index: 3;
+    pointer-events: all;
+    overflow: visible;
+}
+
+@media only screen and (max-width: 900px) {
+    .yamaha-hexagon-grid {
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) and (max-height: 800px) {
+    .yamaha-hexagon-grid {
+        margin-top: 0;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .yamaha-hexagon-grid {
+        overflow: visible;
+    }
+}
+
+/* Hex Styling End */

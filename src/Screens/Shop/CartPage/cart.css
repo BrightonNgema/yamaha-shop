@@ -1,0 +1,43 @@
+.more {
+    margin-right: 0px;
+    /* hello */
+}
+
+.close-button {}
+
+@media only screen and (min-width: 1000px) {
+
+    .mt-4 {
+        margin-top: 4rem !important;
+    }
+
+    .device-layout {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .full-width-100 {
+        width: 100%;
+    }
+
+    .device-layout {
+        margin-top: 4rem;
+    }
+
+    .medium-layout {
+        display: none;
+    }
+    .hr_change{
+        margin-top:0 !important;
+        margin-bottom: 0 !important;
+    }
+    .br{
+        border-right:1px solid grey;
+    }
+    .mt-2{
+        margin-top:1rem !important;
+    }
+}

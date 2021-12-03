@@ -1,0 +1,19 @@
+.main-container {
+    background-image: linear-gradient(
+        rgba(25, 25, 25, 92%),
+        rgba(8, 8, 8, 92%)
+    );
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left-side {
+    position: fixed;
+    width: auto;
+    padding: 30px 0px 0px 40px;
+    z-index: 4;
+    height: 0px;
+    margin-top: 6%;
+}

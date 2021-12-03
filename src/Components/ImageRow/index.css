@@ -1,0 +1,8 @@
+.image-grid-border{
+    margin-right: 0.625rem;
+    height: 1.875rem;
+    width: 4.6875rem;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 5px;
+}

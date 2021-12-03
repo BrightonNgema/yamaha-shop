@@ -1,0 +1,41 @@
+.warranty-heading-container {
+    padding: 120px 10px 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.warranty-heading {
+    color: #000;
+    font-weight: bold;
+    font-size: 4.25rem;
+    margin-bottom: 0px;
+    font-family: rift;
+}
+
+.warranty-subheading {
+    text-transform: initial;
+    color: #56585a;
+    font-family: "Ubuntu", sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+    .warranty-heading-container {
+        padding: 120px 40px 60px 40px;
+        margin: auto;
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .warranty-heading {
+        font-size: 2.5rem;
+        font-family: rift;
+    }
+}
+
+.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation8.MuiPopover-paper.MuiPaper-rounded {
+    max-height: 300px;
+    margin-top:36px
+}

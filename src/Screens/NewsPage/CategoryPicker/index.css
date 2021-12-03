@@ -1,0 +1,7 @@
+.category-button { 
+  min-width: auto !important;
+}
+
+.category-button span {
+  white-space: nowrap;
+}

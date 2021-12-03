@@ -1,0 +1,76 @@
+.about-menu-link {
+    padding: 5px 5px;
+    width: 100%;
+    border-radius: 10px !important;
+    border: 2px solid white !important;
+}
+.about-menu-link span.drawer-btn {
+    margin-top: 3px !important;
+}
+
+.about-menu-link.active {
+    background-color: #d52b1e !important;
+}
+.btn-outline {
+    width: 100%;
+    background-color: transparent !important;
+    color: #ffffff !important;
+    font-family: Ubuntu, sans-serif !important;
+    border: 0.1rem solid #ffffff !important;
+    border-radius: 10px !important;
+    display: inline-block !important;
+}
+.btn-outline-active {
+    width: 100%;
+    background-color: #d52b1e !important;
+    color: #ffffff !important;
+    border: 0.1rem solid #ffffff !important;
+    font-family: Ubuntu, sans-serif !important;
+    border-radius: 10px !important;
+    display: inline-block !important;
+}
+.MuiDrawer-root.MuiDrawer-modal.drawerColor
+    > div.MuiPaper-root.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorRight {
+    background-color: #1e1e1e !important;
+}
+.btn-hamburger {
+    pointer-events: all;
+}
+
+.btn-hamburger img {
+    width: 25px;
+}
+
+.drawer-btn {
+    display: inline-block;
+    color: white;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.MuiDrawer-paper {
+    width: 100%;
+}
+.additional-items {
+    padding: 0.2rem 1.5rem !important;
+    display: inline-block !important;
+}
+.drawer-hexagon.MuiDrawer-paper {
+    width: 60% !important;
+}
+.drawer-hexagon > div.MuiPaper-root.MuiPaper-elevation16.MuiDrawer-paper {
+    width: 80% !important;
+}
+
+@media only screen and (max-width: 900px) {
+    button.MuiButtonBase-root.MuiButton-root.btn-hamburger.MuiButton-text {
+        padding: 20px 0px 0px;
+    }
+}
+
+/* iPhone 5/SE or small phones */
+@media only screen and (max-width: 400px) and (max-height: 600px) {
+    .btn-hamburger img {
+        margin-top: -0.5rem;
+        width: 20px;
+    }
+}

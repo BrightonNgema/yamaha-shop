@@ -1,0 +1,25 @@
+.icon-menu-button {
+    margin: 0 0.3rem;
+    padding: 0.25rem 0.25rem 0;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #b3b5b4;
+    cursor: pointer;
+}
+
+.icon-menu-button:hover {
+    background: #d5d5d5;
+}
+
+.icon-menu-button:focus {
+    background: #d5d5d5;
+}
+
+.MuiSvgIcon-root.icon-menu-icons {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.menu-btn-hamburg {
+    pointer-events: all;
+}

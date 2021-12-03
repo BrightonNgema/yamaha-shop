@@ -1,0 +1,13 @@
+.desktop-category-container {
+    position: absolute;
+    top: 55%;
+    left: 110px;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+}
+
+@media only screen and (min-height: 900px) {
+    .desktop-category-container {
+        top: 45%;
+    }
+}

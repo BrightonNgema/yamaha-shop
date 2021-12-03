@@ -1,0 +1,100 @@
+.vertical-center {
+    position: absolute;
+    top: 55%;
+    left: 110px;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+}
+
+.categoryCarouselcontainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    max-height: 100%;
+}
+
+a.carousel-arrow {
+    text-decoration: none !important;
+    color: #c5c6c5;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.MuiSvgIcon-root.carousel-arrow-icon {
+    font-size: 1.6rem;
+    display: inline-block;
+}
+
+.carousel-arrow > .carousel-arrow-icon-container {
+    margin: 0;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none !important;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 3px;
+    background: #d52b1e;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .MuiSvgIcon-root.carousel-arrow-icon {
+        font-size: 0.8rem;
+    }
+
+    .carousel-arrow > .carousel-arrow-icon-container {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-carousel-arrow.MuiToolbar-gutters {
+        padding: 0px 40px;
+    }
+    .categoryCarouselcontainer {
+        background-position: center;
+        height: 80%;
+        max-height: 100%;
+        overflow: hidden !important;
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (min-height: 900px) {
+    .vertical-center {
+        top: 45%;
+    }
+}
+
+.carousel-indicator {
+    height: 10px;
+    width: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px 15px;
+    cursor: pointer;
+}
+
+.category-info-container {
+    display: block;
+    text-align: left;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.carousel-stepper {
+    display: block;
+    bottom: 10%;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    pointer-events: all;
+}

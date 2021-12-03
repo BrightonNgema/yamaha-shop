@@ -1,0 +1,172 @@
+#pinContainer.efi {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("../heroImages/golf_gc3.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+#pinContainer.efi.panel {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+}
+.wording {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-transform: Uppercase;
+    font-family: rift;
+    font-weight: bold;
+    line-height: 1.2rem;
+}
+
+.panel.blue {
+    background-color: #3883d8;
+}
+
+.panel.turqoise {
+    background-color: #38ced7;
+}
+
+.panel.green {
+    background-color: #22d659;
+}
+
+.panel.bordeaux {
+    background-color: #953543;
+}
+
+@media only screen and (max-height: 768px) {
+    #pinContainer.efi {
+        background-position-y: 20vh;
+        /* background-position-x: -10vh; */
+        background-size: 100vh;
+    }
+    .climaguard {
+        top: 15%;
+    }
+    .roomier {
+        top: 50%;
+    }
+    .fully {
+        top: 40%;
+    }
+    .spacious {
+        top: 48%;
+    }
+    .redesign {
+        top: 40%;
+    }
+}
+
+@media screen and (min-height: 770px) {
+    #pinContainer.efi {
+        background-position-y: 23vh;
+        background-size: 90vh;
+    }
+    .climaguard {
+        top: 20%;
+    }
+    .fully {
+        top: 40%;
+    }
+    .spacious {
+        top: 50%;
+        left: -5%;
+    }
+    .roomier {
+        top: 53%;
+        left: -2%;
+    }
+    .redesign {
+        top: 40%;
+    }
+}
+
+@media only screen and (height: 900px) {
+    #pinContainer.efi {
+        background-position-y: 20vh;
+        background-size: 100vh;
+    }
+    .climaguard {
+        top: 15%;
+    }
+    .fully {
+        top: 43%;
+        right: -5%;
+    }
+    .spacious {
+        top: 50%;
+        left: -5%;
+    }
+    .roomier {
+        top: 55%;
+        left: -3%;
+    }
+    .redesign {
+        top: 45%;
+    }
+}
+
+@media only screen and (height: 1050px) {
+    #pinContainer.efi {
+        background-position-y: 15vh;
+        background-size: 100vh;
+    }
+    .climaguard {
+        top: 10%;
+    }
+    .roomier {
+        top: 50%;
+        left: -13%;
+    }
+    .spacious {
+        top: 46%;
+        left: -11%;
+    }
+    .fully {
+        top: 40%;
+        right: -10%;
+    }
+    .redesign {
+        top: 43%;
+        right: 2% !important;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    #pinContainer.efi {
+        background-position-y: 15vh;
+        background-size: 100vh;
+    }
+    .climaguard {
+        top: 10%;
+    }
+    .roomier {
+        top: 50%;
+        left: 3%;
+    }
+    .spacious {
+        top: 46%;
+        left: 2%;
+    }
+    .fully {
+        top: 40%;
+        left: 1%;
+    }
+    .redesign {
+        top: 40%;
+        right: -3% !important;
+    }
+}
+
+@media only screen and (min-height: 1440px) {
+    #pinContainer.efi {
+        background-position-y: 15vh;
+        background-size: 90vh;
+    }
+}

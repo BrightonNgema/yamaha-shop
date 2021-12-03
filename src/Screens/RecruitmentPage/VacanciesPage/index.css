@@ -1,0 +1,65 @@
+.recruit-header-bg {
+    height: 100vh;
+    background-image: linear-gradient(rgba(25, 25, 25, 0.3), rgba(8, 8, 8, 0.3)),
+        url("../../../Assets/images/recruits.jpg");
+    background-size: cover;
+    color: #fff;
+}
+.recruit-header-bg h1 {
+    font-family: "Rift", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-top: 0 !important;
+    padding-top: 250px;
+    line-height: 1;
+}
+.recruit-header-bg p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-top: 70px;
+}
+
+.section img {
+    width: 100%;
+}
+
+.section h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #000 !important;
+    font-family: "Rift", sans-serif;
+    margin-left: 20px;
+}
+
+hr {
+    margin-top: 70px;
+    color: #56585a !important;
+}
+
+.section p {
+    color: #56585a !important;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+.kando span {
+    color: #d52b1e !important;
+}
+
+.form_section h1 {
+    font-family: "Rift", sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 1;
+}
+
+.form_section p {
+    color: #56585a;
+    font-family: "Ubuntu", sans-serif;
+}

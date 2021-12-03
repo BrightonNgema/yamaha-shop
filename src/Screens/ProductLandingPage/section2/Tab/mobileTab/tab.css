@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+    .makeStyles-root-222 {
+        margin-bottom: 10px;
+    }
+    .MuiTabs-flexContainer.MuiTabs-centered {
+        margin: auto 10px !important;
+    }
+    .MuiTab-textColorInherit {
+        margin-right: 0px !important;
+    }
+}

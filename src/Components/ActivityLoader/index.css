@@ -1,0 +1,55 @@
+div.spinnerContainer {
+    height: 100vh;
+    width:100%;
+    overflow: hidden !important;
+    position: relative;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+}
+div.spinnerContainer div {
+    margin:auto;
+}
+
+ 
+ @media only screen and (max-width: 768px) {
+    .shapeshifter.play {
+        transform: scale(2,2);
+    }
+  }
+
+@keyframes play240 {
+  0% {
+    background-position: 0px 0px;
+    /* margin: auto; */
+
+  }
+  100% {
+    background-position: -36000px 0px;
+    /* margin: auto; */
+  }
+}
+@keyframes play240 {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -36000px 0px;
+  }
+}
+.shapeshifter {
+  animation-duration: 4000ms;
+  animation-timing-function: steps(240);
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+ animation-iteration-count: 9999;
+
+}
+.shapeshifter.play {
+ animation-iteration-count: 9999;
+
+  animation-name: play240;
+}
+
+ /* animation-iteration-count: 9999; */

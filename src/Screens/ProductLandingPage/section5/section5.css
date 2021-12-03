@@ -1,0 +1,39 @@
+.testimonial-qoutation-mark {
+    text-align: left;
+    margin-left: -15px;
+    margin-bottom: -10px;
+}
+.testimonial-paragraph {
+    width: 95%;
+    text-align: left;
+    text-transform: initial;
+    font-size: 0.9rem;
+}
+
+.testimonial-author {
+    width: 95%;
+    text-align: left;
+    text-transform: initial;
+    color: rgb(124, 124, 124);
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .another-model-infor-container {
+        margin-left: 10%;
+    }
+    .testimonial-qoutation-mark {
+        text-align: left;
+        margin-left: 5%;
+    }
+    .testimonial-paragraph {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .testimonial-author {
+        text-align: center;
+    }
+}

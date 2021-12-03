@@ -1,0 +1,50 @@
+.categoryCarouselcontainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 100%;
+}
+
+.mobile-category-container {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .categoryCarouselcontainer {
+        background-position: center;
+        height: 100vh;
+        max-height: 100%;
+        overflow: hidden;
+    }
+}
+
+.carousel-indicator {
+    height: 10px;
+    width: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px 15px;
+    cursor: pointer;
+}
+
+.category-info-container {
+    display: block;
+    text-align: left;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.carousel-stepper {
+    display: block;
+    bottom: 10%;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    pointer-events: all;
+}

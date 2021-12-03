@@ -1,0 +1,8 @@
+.triangle-topright {
+    width: 25%;
+    height: 20%;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

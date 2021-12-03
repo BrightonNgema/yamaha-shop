@@ -1,0 +1,31 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.color {
+    color: grey;
+    margin-top: 20px;
+}
+
+.colorh3 {
+    color: black;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.browse {
+    position: relative;
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: -30%;
+    right: 0;
+    top: 70%; /* Adjust this value to move the positioned div up and down */
+    text-align: start;
+    width: 50%; /* Set the width of the positioned div */
+}

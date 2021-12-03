@@ -1,0 +1,35 @@
+.product-container {
+    padding: 130px 10px 60px;
+    /* padding-left: 32px; */
+    margin-right: 32px;
+    margin: auto;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .product-container {
+        padding: 180px 100px 60px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .product-container {
+        padding: 140px 85px 60px;
+        margin: auto;
+        /* max-width: 1440px; */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .product-container {
+        /* margin: auto; */
+        padding: 130px 0px;
+        max-width: 100%;
+        width: 85%;
+    }
+    .contact-heading {
+        font-size: 2.5rem;
+        font-family: rift;
+        line-height: 0.8;
+        margin-bottom: 20px;
+    }
+}

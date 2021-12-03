@@ -1,0 +1,79 @@
+.breadcrumb-root {
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    flex-grow: 1;
+    pointer-events: all;
+}
+
+.MuiBreadcrumbs-ol {
+    margin-top: -2px !important;
+}
+
+a.breadcrumb-link {
+    text-decoration: none !important;
+    color: #c5c6c5;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.MuiTypography-root.breadcrumb-link {
+    color: #c5c6c5;
+    font-size: 0.75rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.MuiBreadcrumbs-separator {
+    color: #c5c6c5 !important;
+}
+
+.MuiSvgIcon-root.breadcrumb-icon {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: auto;
+}
+
+.breadcrumb-link > .breadcrumb-icon-container {
+    margin: 0;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none !important;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 3px;
+    background: #d52b1e;
+    overflow: hidden;
+}
+
+.breadcrumb-text {
+    margin: 0;
+    padding: 0;
+    margin-left: 0.35rem;
+}
+
+li.PrivateBreadcrumbSeparator-root-113.MuiBreadcrumbs-separator {
+    color: #c5c6c5;
+}
+
+@media only screen and (max-width: 900px) {
+    .MuiSvgIcon-root.breadcrumb-icon {
+        font-size: 0.8rem;
+    }
+
+    .breadcrumb-link > .breadcrumb-icon-container {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-breadcrumb.MuiToolbar-gutters {
+        padding: 0px 40px;
+        /* margin-top: -2px; */
+    }
+    .MuiBreadcrumbs-ol {
+        margin-top: -4px !important;
+    }
+}

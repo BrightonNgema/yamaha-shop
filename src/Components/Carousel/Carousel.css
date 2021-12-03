@@ -1,0 +1,223 @@
+.main-container {
+    background: linear-gradient(rgba(25, 25, 25, 92%), rgba(8, 8, 8, 92%));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-container.warranty {
+    background-image: url("../../Assets/images/warranty_banners.jpg") !important;
+}
+
+.indicator:hover {
+    cursor: pointer;
+}
+
+.indicator {
+    height: 10px;
+    width: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.image-row-carousel{
+    margin-top: 80vh;
+    margin-left: 100px;
+}
+
+.stepper-parent {
+    display: block;
+    height: 100vh;
+    text-align: left;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.stepper {
+    display: block;
+    top: 68%;
+    left: 5rem;
+    position: relative;
+    text-align: left;
+    width: 170px;
+    pointer-events: all;
+}
+
+@media only screen and (max-width: 1300px) and (max-height: 900px) {
+    .stepper-parent {
+        display: block;
+        text-align: left;
+    }
+
+    .stepper {
+        text-align: left;
+        width: 200px;
+    }
+    .image-row-carousel{
+        margin-top:40rem !important;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    
+    .image-row-carousel{
+        margin-top:40rem !important;
+    }
+}
+
+@media only screen and (max-width: 800px) and (max-width: 900px) {
+    .stepper-parent {
+        text-align: center;
+        width: 100%;
+    }
+
+    .stepper {
+        display: inline-block;
+        text-align: center;
+        top: 38%;
+        left: 0%;
+    }
+}
+
+@media only screen and (max-width: 500px) and (max-height: 800px) {
+    .stepper {
+        top: 34%;
+    }
+}
+
+@media only screen and (max-width: 350px) and (max-height: 600px) {
+    .stepper {
+        display: none;
+        top: 34%;
+    }
+   
+}
+
+@media only screen and (max-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .stepper-parent {
+        text-align: center;
+        width: 100%;
+    }
+
+    .stepper {
+        display: inline-block;
+        text-align: center;
+        top: 32%;
+        left: 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .stepper-parent {
+        text-align: center;
+        width: 100%;
+    }
+
+    .stepper {
+        display: inline-block;
+        text-align: center;
+        top: 50%;
+        left: 0%;
+    }
+}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+   .stepper-parent {
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    .stepper {
+        display: inline-block;
+        text-align: center;
+        top: 50%;
+        left: 0%;
+    }
+}
+
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 768px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+ .stepper-parent {
+        text-align: center;
+        width: 100%;
+    }
+
+    .stepper {
+        display: inline-block;
+        text-align: center;
+        top: 60% !important;
+        left: 1% !important;
+        position: absolute;
+    }
+}
+
+/* Landscape */
+/* @media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .stepper-parent {
+        text-align: center;
+        width: 100%;
+    }
+
+    .stepper {
+        display: inline-block;
+        text-align: center;
+        top: 25% !important;
+        left: 0% !important;
+    }
+} */
+
+
+@media only screen and (max-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+    .stepper-parent {
+        text-align: center;
+        width: 100%;
+    }
+
+    .stepper {
+        display: inline-block;
+        text-align: center;
+        top: 25%;
+        left: 0%;
+    }
+    .image-row-carousel{
+        margin-top:40rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+    .stepper-parent {
+        text-align: center;
+        width: 100%;
+    }
+
+    .stepper {
+        display: inline-block;
+        text-align: center;
+        top: 30%;
+        left: 0%;
+    }
+    .image-row-carousel{
+        margin-top:40rem !important;
+    }
+}

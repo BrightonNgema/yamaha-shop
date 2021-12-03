@@ -1,0 +1,96 @@
+.map {
+    height: 600px;
+    background-color: #d4d4d4;
+}
+.world-of-yamaha {
+    background: linear-gradient(rgba(41, 41, 41, 89%), rgba(8, 8, 8, 89%));
+    height: auto;
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+    left: 80px;
+    top: 30%;
+    padding: 40px;
+    z-index: 2;
+}
+
+.branch {
+    color: #000;
+    font-family: "Ubuntu", sans-serif;
+    text-transform: initial;
+}
+
+.name {
+    font-size: 1.2rem;
+}
+.address {
+    font-size: 1rem;
+    margin-top: -18px;
+}
+
+.telephone {
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-bottom: -2px;
+}
+.branch.white {
+    color: #fff;
+    line-height: 15px;
+}
+
+.branch.name.white {
+    margin: 2px 0px !important;
+    text-transform: uppercase;
+}
+.branch.subtext.white {
+    margin: 2px 0px !important;
+    font-size: 0.8rem;
+}
+.branch.address.white {
+    margin: 10px 0px 3px !important;
+    font-size: 0.8rem;
+}
+.branch.telephone.white {
+    font-size: 0.8rem;
+    margin: 0px 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .world-of-yamaha {
+        top: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        right: 0px;
+        left: 0px;
+        padding: 40px 20px;
+    }
+
+    .name {
+        font-size: 0.8rem;
+    }
+    .address {
+        font-size: 0.65rem;
+        margin-top: -10px;
+    }
+
+    .telephone {
+        font-size: 0.65rem;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .world-of-yamaha {
+        padding: 40px 15px;
+    }
+    .branch .subtext .white {
+        font-size: 0.6rem;
+    }
+    .branch .address .white {
+        font-size: 0.6rem;
+    }
+
+    .branch .telephone .white {
+        font-size: 0.6rem;
+    }
+}

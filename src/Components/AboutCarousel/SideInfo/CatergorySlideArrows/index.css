@@ -1,0 +1,41 @@
+a.carousel-arrow {
+    text-decoration: none !important;
+    color: #c5c6c5;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.MuiSvgIcon-root.carousel-arrow-icon {
+    font-size: 1.6rem;
+    display: inline-block;
+}
+
+.carousel-arrow > .carousel-arrow-icon-container {
+    margin: 0;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none !important;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 8px;
+    background: #d52b1e;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .MuiSvgIcon-root.carousel-arrow-icon {
+        font-size: 0.8rem;
+    }
+
+    .carousel-arrow > .carousel-arrow-icon-container {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-carousel-arrow.MuiToolbar-gutters {
+        padding: 0px 40px;
+    }
+}

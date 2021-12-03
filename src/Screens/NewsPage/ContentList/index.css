@@ -1,0 +1,26 @@
+.MuiGridListTile-root {
+  height: auto !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .MuiGridList-root {
+    flex-wrap: nowrap !important;
+  }
+
+
+  .grid-list-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      /* overflow: hidden; */
+  }
+
+  .MuiGridListTile-root {
+    width: 80% !important;
+    height: auto !important;
+  }
+
+  .more-btn-container {
+    display: none;
+  }
+}

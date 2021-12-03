@@ -1,0 +1,121 @@
+.MuiAppBar-colorPrimary {
+    background-color: transparent !important;
+}
+
+.MuiTab-textColorInherit.Mui-selected {
+    opacity: 1;
+    background: #d52b1e !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    color: #fff !important;
+    font-weight: bold;
+    font-family: "rift";
+    font-size: 1rem;
+}
+
+.MuiTabs-scroller {
+    background-color: #1e1e1e !important;
+}
+
+.PrivateTabIndicator-root-229 {
+    background-color: #d52b1e !important;
+    margin: auto !important;
+    padding: 0px 0px !important;
+}
+
+.MuiTab-textColorInherit {
+    font-family: "rift" !important;
+    font-size: 1.2rem !important;
+    margin-right: 8px !important;
+    font-weight: bold !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    color: #7c7c7c !important;
+}
+
+.MuiTab-textColorInherit {
+    background-color: #56585a !important;
+}
+
+header.MuiPaper-root.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-positionStatic.product-landing-tab.MuiAppBar-colorPrimary {
+    box-shadow: none !important;
+    border-bottom: 1px solid #56585a !important;
+}
+header.MuiPaper-root.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-positionStatic.product-landing-tab.MuiAppBar-colorDefault {
+    box-shadow: none !important;
+    border-bottom: 1px solid #56585a !important;
+    background-color: #1e1e1e !important;
+}
+
+.MuiTab-root {
+    max-width: 100% !important;
+}
+.MuiTabs-root {
+    max-width: 100% !important;
+}
+.MuiTypography-root.MuiTypography-body1 div.MuiBox-root {
+    padding: 24px 0px !important;
+}
+
+.MuiTab-textColorInherit .MuiTabs-flexContainer.MuiTabs-indicator {
+    background-color: #d52b1e !important;
+    margin: auto !important;
+    padding: 0px 0px !important;
+}
+
+.PrivateTabIndicator-colorSecondary-259 {
+    background-color: #d52b1e !important;
+}
+
+.MuiTabs-scroller.MuiTabs-fixed span.MuiTabs-indicator {
+    background-color: #d52b1e !important;
+    width: 0% !important;
+}
+
+/* Desktop Style */
+.MuiSvgIcon-fontSizeSmall {
+    font-size: 2.25rem;
+    color: #fff;
+}
+.PrivateTabIndicator-root-231 {
+    background-color: #d52b1e !important;
+}
+.makeStyles-root-208 {
+    background-color: transparent !important;
+}
+.MuiTypography-root.MuiTypography-body1 div.MuiBox-root {
+    background-color: #1e1e1e !important;
+}
+
+.MuiPaper-elevation4 {
+    box-shadow: none !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+    background-color: #d52b1e !important;
+}
+.MuiTab-textColorPrimary.Mui-selected {
+    color: #fff;
+}
+.MuiTab-textColorPrimary.Mui-selected {
+    opacity: 1;
+    background-color: #d52b1e !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    font-weight: bold;
+    font-family: "rift";
+    font-size: 1rem;
+}
+.PrivateTabScrollButton-root-337 {
+    width: 40px;
+    flex-shrink: 0;
+    background-color: #1e1e1e !important;
+    color: #fff;
+    border-color: transparent !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .MuiTypography-root.MuiTypography-body1 div.MuiBox-root {
+        padding: 24px 24px 24px 40px !important;
+    }
+}

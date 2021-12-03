@@ -1,0 +1,30 @@
+.icon-close-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: grey;
+}
+.confirm-heading{
+    color: #000;
+    font-weight: bold;
+    font-size: 30px !important;
+    margin-bottom: 0px;
+    font-family: rift;
+    padding: 0 40px 0 20px;
+}
+
+.confirm-button2{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .confirm-heading{
+        color: #000;
+        font-weight: bold;
+        font-size: 20px !important;
+        margin-bottom: 0px;
+        font-family: rift;
+        padding: 0 40px 0 20px;
+    }
+}

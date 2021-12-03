@@ -1,0 +1,28 @@
+.filepond--drop-label {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 2px solid #e2e2e1 !important;
+}
+
+/* the color of the focus ring */
+.filepond--file-action-button:hover,
+.filepond--file-action-button:focus {
+    box-shadow: 0 0 0 0.125em #d52b1e;
+}
+
+.filepond--item-panel {
+    background-color: #fff;
+}
+
+.filepond--drop-label {
+    color: #e2e2e1;
+    font-family: "Ubuntu", sans-serif !important;
+}
+
+.filepond--file {
+    color: #000;
+}
+
+.filepond--root .filepond--drop-label {
+    min-height: 3.75em !important;
+}

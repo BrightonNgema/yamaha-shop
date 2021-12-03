@@ -1,0 +1,21 @@
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 3rem !important;
+}
+
+.MuiTypography-gutterBottom {
+  margin-top: 0.35rem !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.ellipsed-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  min-height: 60px;
+}
+
+.gallery {
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}

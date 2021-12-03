@@ -1,0 +1,29 @@
+.desktop-category-container {
+    position: absolute;
+    top: 55%;
+    left: 110px;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+}
+
+.product-landing-info-main {
+    bottom: 0%;
+    align-self: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (min-height: 900px) {
+    .desktop-category-container {
+        top: 45%;
+    }
+}
+
+@media only screen and (min-width: 1660px) {
+    .product-landing-info-main {
+        bottom: 20%;
+    }
+}

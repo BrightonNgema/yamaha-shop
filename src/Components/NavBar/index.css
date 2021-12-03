@@ -1,0 +1,93 @@
+.yamaha-navbar {
+    flex-grow: 1;
+    box-shadow: "none";
+    background: transparent;
+    transition:0.3s
+}
+.menu-break {
+    display: none;
+    visibility: hidden;
+}
+.MuiPaper-root.yamaha-navbar-appbar {
+    background: transparent;
+    box-shadow: unset;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-breadcrumb.MuiToolbar-gutters {
+    padding: 0px 70px;
+}
+
+.individual-logo {
+    width: 10rem !important;
+}
+.logo {
+    width: 18rem;
+    margin: 20px 5px 0px;
+}
+
+.navMain {
+    display: initial;
+    flex-grow: 1;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-toolbar.MuiToolbar-gutters {
+    padding: 10px 50px 0px 60px;
+}
+
+.right-button-nav {
+    visibility: hidden;
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+    .navMain {
+        display: none;
+    }
+    .individual-logo {
+        width: unset !important;
+        height: 2rem !important;
+    }
+
+    .logo {
+        width: 14rem;
+    }
+
+    .MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-toolbar.MuiToolbar-gutters {
+        padding: 0px 10px 0px 25px;
+    }
+
+    .MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-breadcrumb.MuiToolbar-gutters {
+        padding: 0rem 2rem;
+    }
+    .right-button-nav {
+        visibility: visible;
+        display: initial;
+        margin: -5px -5px 0px auto;
+    }
+    .menu-break {
+        background-color: rgb(255, 255, 255);
+        width: 85%;
+        margin: auto;
+        height: 0.5px;
+        display: initial;
+        visibility: visible;
+    }
+}
+
+/* iPhone 5/SE or small phones */
+@media only screen and (max-width: 400px) and (max-height: 600px) {
+    .logo {
+        width: 11rem;
+    }
+
+    .MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-breadcrumb.MuiToolbar-gutters {
+        padding: 0rem 1.5rem;
+        height: auto;
+    }
+
+    .MuiToolbar-root.MuiToolbar-regular.yamaha-navbar-breadcrumb.MuiToolbar-gutters
+        .breadcrumb-root {
+        margin-top: -15px;
+    }
+}

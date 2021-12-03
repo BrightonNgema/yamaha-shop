@@ -1,0 +1,24 @@
+.card-product {
+    width: 20rem;
+    border: 0px;
+}
+
+div.product-desc::first-letter {
+    text-transform: uppercase !important;
+}
+.product-desc {
+    font-size: 0.875rem;
+    color: #616365;
+    text-align: left;
+    font-family: #d52b1e;
+    text-transform: initial;
+    width: 80%;
+    display: -webkit-inline-box;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 320px) {
+    .MuiGrid-grid-xs-3 {
+        margin-right: 10px !important;
+    }
+}

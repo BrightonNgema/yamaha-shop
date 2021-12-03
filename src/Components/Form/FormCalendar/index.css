@@ -1,0 +1,12 @@
+.MuiOutlinedInput-notchedOutline {
+    border-width: 2px !important;
+}
+
+.MuiFormControl-marginNormal {
+    margin-top: 1px !important;
+    flex: 1;
+}
+
+.MuiOutlinedInput-input {
+    padding: 20px 14px !important;
+}

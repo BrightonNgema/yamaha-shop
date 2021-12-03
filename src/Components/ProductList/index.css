@@ -1,0 +1,13 @@
+.productlist-break {
+    height: 1.5px;
+    width: 100%;
+    background-color: rgb(188, 189, 188);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 425px) {
+    .productlist-break {
+        margin-top: 30px;
+    }
+}

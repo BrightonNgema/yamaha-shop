@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "rift";
+    font-style: normal;
+    font-weight: normal;
+    src: local("rift"), local("rift-Regular"),
+        url(./Assets/fonts/rift/For_Foundry_Rift_Regular.otf) format("woff2"),
+        url(./Assets/fonts/rift/For_Foundry_Rift_Regular.otf) format("woff");
+}
+
+@font-face {
+    font-family: "rift";
+    font-style: normal;
+    font-weight: bold;
+    src: local("rift Bold"), local("rift-Bold"),
+        url(./Assets/fonts/rift/Fort_Foundry_Rift_Bold.otf) format("woff2"),
+        url(./Assets/fonts/rift/Fort_Foundry_Rift_Bold.otf) format("woff");
+}
+@font-face {
+    font-family: "rift";
+    font-style: normal;
+    font-weight: 400;
+    src: local("rift light"), local("rift-light"),
+        url(./Assets/fonts/rift/Fort_Foundry_Rift_Light.otf) format("woff2"),
+        url(./Assets/fonts/rift/Fort_Foundry_Rift_Light.otf) format("woff");
+}
+
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: uppercase;
+    color: #fff;
+    overflow-x: hidden !important;
+    max-width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.main-container {
+    background-image: linear-gradient(rgba(25, 25, 25, 1), rgba(8, 8, 8, 1));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+

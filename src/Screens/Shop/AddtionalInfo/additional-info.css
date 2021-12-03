@@ -1,0 +1,21 @@
+.form-labels {
+    font-size: 15px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    color: black;
+}
+
+.additional-info {
+    font-size: 15px;
+    font-family: Ubuntu;
+    color: #56585a;
+}
+
+.return-color {
+    color: #1ea4d5;
+}
+
+.labels-color {
+    color: black;
+    font-family: Ubuntu;
+}

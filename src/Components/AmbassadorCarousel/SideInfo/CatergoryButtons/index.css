@@ -1,0 +1,17 @@
+.category-buttons-container {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .category-buttons-container {
+        display: inline-block;
+    }
+
+    .getInTouch {
+        visibility: hidden;
+        display: none;
+        margin: 0px 10px;
+    }
+}

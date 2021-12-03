@@ -1,0 +1,77 @@
+.colortop {
+    margin-top: 20px;
+    color: #56585A;
+    font-size: 12px;
+    height: 20px;
+}
+
+.instock {
+    color: white;
+    background-color: "#1ED588";
+    padding: 10px;
+}
+
+.theproductprice {
+    font-weight: 600;
+    font-family: Ubuntu, sans-serif;
+    color: red;
+    font-size: 30px;
+    margin-top: -35px;
+}
+
+.buttons {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.continueshopping {
+    margin-left: 20px;
+}
+
+.productspec {
+    margin-top: 30px;
+}
+
+.specmargin {
+    margin-top: -20px;
+    color: #56585A;
+}
+
+.readmore{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #1E1E1E;
+    font-size: 1rem;
+    font-family: Ubuntu, sans-serif;
+    cursor: pointer;
+}
+
+.specification{
+    margin-top: 20px;
+    color: #1E1E1E;
+    font-family: Rift;
+    font-size: 30px;
+}
+
+.readmore-content{
+    color: #56585A;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+/* .info-text-copytext {
+    font-size: 1rem;
+    color: #bcbdbc;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 500;
+    margin-top: -1.5rem;
+    width: 50%;
+} */
+@media screen and (min-width: 1100px) {
+    .responsive{
+        position:relative;
+    }
+    .browse{
+        position: fixed;
+    }
+}

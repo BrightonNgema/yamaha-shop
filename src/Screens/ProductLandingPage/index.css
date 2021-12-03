@@ -1,0 +1,41 @@
+.product-landing-container {
+    padding-top: 180px;
+}
+
+.section-large-heading {
+    font-size: 4.25rem;
+    font-weight: bold;
+    font-family: rift;
+    line-height: 0.8;
+    margin-bottom: 0px;
+}
+
+li.slider-slide {
+    pointer-events: none !important;
+    cursor: initial !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .another-model-infor-container {
+        margin-left: 10%;
+    }
+}
+li.slider-slide.slide-visible {
+    height: unset !important;
+}
+
+.video-container {
+    width: 100%;
+    height: 40vw;
+    min-height: 200px;
+    margin:auto
+    /* transform: translateY(calc((100vw * 4 / 3 - 100vh) / -2)); */
+}
+
+.ril-outer {
+    background-color: #000;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    z-index: 9999 !important;
+}

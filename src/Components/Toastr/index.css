@@ -1,0 +1,9 @@
+.MuiSnackbarContent-root .success {
+    background-color: #43a047 !important;
+}
+.MuiSnackbarContent-root .error {
+    background-color: #9a0000 !important;
+}
+.span#messade-id {
+    font-size: 0.7rem;
+}

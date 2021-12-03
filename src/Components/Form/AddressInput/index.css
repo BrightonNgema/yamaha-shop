@@ -1,0 +1,122 @@
+.address-input-main {
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+    padding: 0px 20px;
+}
+.react-mapbox-ac-input {
+    border: 2px solid #e2e2e1;
+    box-shadow: none !important;
+    overflow: hidden;
+    margin-left: -2px;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 1.2875em;
+    width: -webkit-fill-available;
+    width: -moz-fill-available;
+    padding: 25px 12px 12px;
+    font-size: 15px;
+    box-sizing: content-box;
+    position: relative;
+    z-index: 1;
+}
+
+.react-mapbox-ac-input::placeholder {
+    position: relative;
+    top: -30px;
+    color: #bcbdbc !important;
+    font-size: 16px;
+    transform: translate(0, 16px) scale(1);
+}
+
+div input.react-mapbox-ac-input:focus + label {
+    color: red;
+}
+
+.react-mapbox-ac-menu {
+    width: 100%;
+    max-width: 305px;
+    margin: auto;
+    position: absolute;
+    z-index: 9999;
+    background-color: #fff;
+    border: 2px solid #e2e2e1 !important;
+    margin-top: -1.3rem;
+    margin-right: 20px;
+}
+.react-mapbox-ac-suggestion {
+    font-size: 13px;
+    color: #bcbdbc !important;
+    margin-bottom: 0.5rem;
+    cursor: pointer !important;
+    margin: auto;
+    font-weight: bold;
+}
+
+.react-mapbox-ac-suggestion:hover {
+    background-color: #d52b1e;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cancel-button {
+    position: relative;
+    top: -68px;
+    width: 25px;
+    height: 25px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .cancel-button {
+        right: -85%;
+    }
+    .address-input-main {
+        width: 100%;
+        margin: 30px 0px -10px 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .cancel-button {
+        right: -93%;
+    }
+    .react-mapbox-ac-menu {
+        width: fit-content;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cancel-button {
+        right: -95%;
+    }
+    .react-mapbox-ac-menu {
+        max-width: 100%;
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .react-mapbox-ac-menu {
+        max-width: 100%;
+        width: 250px;
+    }
+}
+
+.address-input-main.dark div input.react-mapbox-ac-input {
+    background-color: #1e1e1e !important;
+    color: #fff;
+    border: 2px solid #b1b1b1;
+}
+
+.address-input-main.dark div span div.react-mapbox-ac-suggestion {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.address-input-main.dark div span div.react-mapbox-ac-suggestion:hover {
+    background-color: #d52b1e !important;
+    color: #fff;
+}

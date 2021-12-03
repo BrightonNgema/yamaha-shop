@@ -1,0 +1,121 @@
+.footermain {
+    display: initial;
+    font-family: "Ubuntu", sans-serif;
+    padding: 0px 30px;
+    z-index: 1 !important;
+}
+
+/* Wrapper */
+.icon-button {
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12.5px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 20px;
+}
+
+/* Circle */
+.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+}
+.icon-button:hover span {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin: -10px;
+}
+.twitter span {
+    background-color: #4099ff;
+}
+.facebook span {
+    background-color: #3b5998;
+}
+.google-plus span {
+    background-color: #db5a3c;
+}
+
+.instagram span {
+    background-color: #125688;
+}
+.youtube span {
+    background-color: #bb0000;
+}
+
+/* Icons */
+.icon-button i {
+    background: none;
+    color: green;
+    height: 20px;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 20px;
+    z-index: 10;
+}
+/* .icon-button .icon-twitter {
+  color: #4099ff;
+}
+.icon-button .icon-facebook {
+  color: #3b5998;
+}
+.icon-button .icon-google-plus {
+  color: #db5a3c;
+}
+.icon-button .icon-instagram {
+  color: #125688;
+}
+.icon-button .icon-youtube {
+  color: #bb0000;
+} */
+
+.icon-button .icon-twitter,
+.icon-button .icon-facebook,
+.icon-button .icon-google-plus,
+.icon-button .icon-instagram,
+.icon-button .icon-youtube,
+.icon-button .icon-phone {
+    color: #000;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus,
+.icon-button:hover .icon-instagram,
+.icon-button:hover .icon-youtube {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .footermain {
+        display: none;
+    }
+}
+
+span.contact {
+    margin-top: -30px;
+}

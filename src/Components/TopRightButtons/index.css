@@ -1,0 +1,50 @@
+.icon-menu-button {
+    margin: 0 0.3rem;
+    padding: 0.35rem 0.25rem 0;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #b3b5b4;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.icon-menu-button:hover {
+    background: #d5d5d5;
+}
+
+.icon-menu-button:focus {
+    background: #d5d5d5;
+}
+
+.MuiSvgIcon-root.icon-menu-icons {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.menu-btn-hamburg {
+    pointer-events: all;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .icon-menu-button {
+        position: absolute;
+        top: 25px;
+        right: 60px;
+    }
+    .MuiSvgIcon-root.icon-menu-icons {
+        color: #000;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .icon-menu-button {
+        position: absolute;
+        top: 20px;
+        right: 60px;
+    }
+    .MuiSvgIcon-root.icon-menu-icons {
+        color: #000;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,19 @@
+.MuiButton-root.right-menu-button {
+    margin: 1rem !important;
+    background: #fff;
+    border-radius: 8px;
+    font-family: "rift";
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0px 5px;
+    border: 1px solid #b3b5b4;
+    box-shadow: none !important;
+    pointer-events: all;
+}
+
+@media only screen and (max-width: 900px) {
+    .MuiButton-root.right-menu-button {
+        margin: 0 0.3rem;
+        pointer-events: all;
+    }
+}

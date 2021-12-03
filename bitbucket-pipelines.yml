@@ -1,0 +1,31 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:12.18.4
+
+pipelines:
+  default:
+    - step:
+        name: Build React Project
+        script: # Modify the commands below to build your repository.
+          - npm install
+          - unset CI 
+          - npm run build
+          - mkdir packaged
+          - tar -czvf packaged/package-${BITBUCKET_BUILD_NUMBER}.tar.gz -C build .
+        artifacts:
+          - packaged/**
+    - step:
+        name: Deploy to Web
+        trigger: manual
+        deployment: production
+        script:
+          - mkdir upload
+          - tar -xf packaged/package-${BITBUCKET_BUILD_NUMBER}.tar.gz -C upload
+          - apk update && apk add openssh rsync
+          - rsync -a  -e "ssh -o StrictHostKeyChecking=no" --delete upload/ asmuser@165.232.104.16:html/temp/react-${BITBUCKET_BUILD_NUMBER}
+          - ssh -o StrictHostKeyChecking=no asmuser@165.232.104.16 "rm -r public_html"
+          - ssh -o StrictHostKeyChecking=no asmuser@165.232.104.16 "mv 'html/temp/react-${BITBUCKET_BUILD_NUMBER}' 'public_html'"
+          - ssh -o StrictHostKeyChecking=no asmuser@165.232.104.16 "chmod -R u+rwX,go+rX,go-w public_html"

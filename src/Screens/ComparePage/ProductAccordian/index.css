@@ -1,0 +1,71 @@
+.product-accordian {
+    max-width: 100%;
+    margin: 0px auto !important;
+    padding: 0 !important;
+    margin-bottom: -10px !important;
+}
+
+.product-accordian-summary {
+    border-bottom: 2px solid #bcbdbc;
+    padding-bottom: 5px;
+    min-height: 50px !important;
+    margin: auto !important;
+    display: flex;
+    align-items: center;
+}
+.product-accordian-heading {
+    font-size: 1.375rem !important;
+    font-weight: bold !important;
+    font-family: "Ubuntu", sans-serif !important;
+    color: #fff;
+}
+.product-accordian.no-border div.MuiButtonBase-root {
+    background-color: red;
+}
+
+.product-accordian-expand {
+    /* background-color: green; */
+}
+/* .MuiExpansionPanel-rounded {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+} */
+.summary {
+    font-size: 1.1875rem !important;
+    font-weight: normal !important;
+    font-family: "Ubuntu", sans-serif !important;
+    color: #616365;
+    text-transform: capitalize !important;
+}
+@media only screen and (max-width: 600px) {
+    .product-accordian-heading {
+        font-size: 0.8rem !important;
+    }
+    .MuiExpansionPanel-rounded {
+        margin: 0px 10px !important;
+    }
+    .MuiExpansionPanelSummary-root {
+        padding: 0px 10px !important;
+    }
+    .product-accordian-summary {
+        font-size: 0.8rem !important;
+        font-weight: normal !important;
+        font-family: "Ubuntu", sans-serif !important;
+        color: #616365;
+        text-transform: capitalize !important;
+    }
+    .MuiExpansionPanelDetails-root {
+        padding: 0px 10px 20px 10px !important;
+    }
+}
+
+.product-accordian.no-border div {
+    border: none !important;
+    box-shadow: none !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}

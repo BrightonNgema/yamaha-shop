@@ -1,0 +1,95 @@
+.yamaha-btn {
+    font-family: Ubuntu, sans-serif !important;
+    font-weight: bold !important;
+    border-radius: 10px !important;
+    pointer-events: all;
+}
+
+.yamaha-btn:hover {
+    cursor: pointer;
+    color: #ffffff !important;
+}
+
+.yamaha-btn:focus {
+    background-color:#d52b1e !important;
+    color: #ffffff !important;
+}
+
+.yamaha-btn-primary {
+    background-color: #d52b1e !important;
+    color: #ffffff !important;
+    border: 0.125rem solid #d52b1e !important;
+}
+
+.yamaha-btn-primary:hover {
+    background-color: #711710 !important;
+    border: 0.125rem solid #711710 !important;
+}
+.yamaha-btn-primary:focus {
+   
+    border: 0.125rem solid#d52b1e !important;
+}
+
+.yamaha-btn-secondary {
+    background-color: transparent !important;
+    border: 0.125rem solid #1e1e1e !important;
+    color: #1e1e1e !important;
+}
+
+.yamaha-btn-secondary:hover {
+    background-color: #d52b1e !important;
+    border-color: transparent !important;
+}
+
+.yamaha-btn-unselected {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 0.125rem solid #1e1e1e !important;
+}
+
+.yamaha-btn-unselected:hover {
+    background-color: #d52b1e !important;
+     border-color: transparent !important;
+}
+
+.yamaha-btn-disabled {
+    background-color: #dbdcdb !important;
+    color: #bcbdbc !important;
+}
+
+.yamaha-btn-disabled:hover {
+    background-color: #dbdcdb !important;
+    color: #bcbdbc !important;
+}
+
+.yamaha-btn-xs {
+    padding: 0.055rem 0.25rem !important;
+    font-size: 10px !important;
+    border-radius: 5px !important;
+    /* 2px 5px */
+}
+.yamaha-btn-sm {
+    padding: 0.125rem 0.3125rem !important;
+    /* 2px 5px */
+}
+
+.yamaha-btn-lg {
+    padding: 0.625rem 0.9375rem !important;
+    /* 10px 15px */
+}
+
+.yamaha-btn-outline {
+    color: #ffffff !important;
+    border: 0.125rem solid #ffffff !important;
+}
+
+.yamaha-btn-outline:hover {
+    background-color: #d52b1e !important;
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 320px) {
+    .MuiButton-label {
+        font-size: 12px !important;
+    }
+}

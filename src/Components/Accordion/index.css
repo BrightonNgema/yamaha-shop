@@ -1,0 +1,52 @@
+.accordian-main {
+    max-width: 100%;
+    margin: 0px auto !important;
+    background-color: transparent;
+    padding: 0 !important;
+}
+.accordian-heading {
+    font-size: 1.375rem !important;
+    font-weight: bold !important;
+    font-family: "Ubuntu", sans-serif !important;
+}
+/* .MuiExpansionPanel-rounded {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+} */
+.summary {
+    font-size: 1.1875rem !important;
+    font-weight: normal !important;
+    font-family: "Ubuntu", sans-serif !important;
+    color: #616365;
+    text-transform: capitalize !important;
+}
+@media only screen and (max-width: 600px) {
+    .accordian-heading {
+        font-size: 0.8rem !important;
+    }
+    .MuiExpansionPanel-rounded {
+        margin: 0px 10px !important;
+    }
+    .MuiExpansionPanelSummary-root {
+        padding: 0px 10px !important;
+    }
+    .summary {
+        font-size: 0.8rem !important;
+        font-weight: normal !important;
+        font-family: "Ubuntu", sans-serif !important;
+        color: #616365;
+        text-transform: capitalize !important;
+    }
+    .MuiExpansionPanelDetails-root {
+        padding: 0px 10px 20px 10px !important;
+    }
+}
+
+.accordian-main.no-border div {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}

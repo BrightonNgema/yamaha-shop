@@ -1,0 +1,121 @@
+#pinContainer.tracer900gt {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("../heroImages/motorcycles_mo13.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+#pinContainer.tracer900gt .panel {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+}
+.wording {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-transform: Uppercase;
+    font-family: rift;
+    font-weight: bold;
+    line-height: 1.2rem;
+}
+
+.panel.blue {
+    background-color: #3883d8;
+}
+
+.panel.turqoise {
+    background-color: #38ced7;
+}
+
+.panel.green {
+    background-color: #22d659;
+}
+
+.panel.bordeaux {
+    background-color: #953543;
+}
+
+@media only screen and (max-height: 768px) {
+    #pinContainer.tracer900gt {
+        background-position-y: 15vh;
+        /* background-position-x: -10vh; */
+        background-size: 90vh;
+    }
+    .riding {
+        top: 20%;
+    }
+    .torque {
+        top: 30%;
+    }
+}
+
+@media only screen and (height: 800px) {
+    #pinContainer.tracer900gt {
+        background-position-y: 18vh;
+        /* background-position-x: -10vh; */
+        background-size: 90vh;
+    }
+    .riding {
+        top: 25%;
+    }
+    .torque {
+        top: 39%;
+    }
+}
+
+@media only screen and (height: 900px) {
+    #pinContainer.tracer900gt {
+        background-position-y: 10vh;
+        background-size: 100vh;
+    }
+    .riding {
+        top: 25%;
+    }
+    .torque {
+        top: 39%;
+    }
+}
+
+@media only screen and (height: 1050px) {
+    #pinContainer.tracer900gt {
+        background-position-y: 10vh;
+        background-size: 100vh;
+    }
+    .riding {
+        top: 25%;
+    }
+    .torque {
+        top: 39%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    #pinContainer.tracer900gt {
+        background-position-y: 15vh;
+        background-size: 100vh;
+    }
+    .riding {
+        top: 25%;
+    }
+    .torque {
+        top: 52%;
+    }
+}
+
+@media only screen and (min-height: 1440px) {
+    #pinContainer.tracer900gt {
+        background-position-y: 15vh;
+        background-size: 110vh;
+    }
+    .riding {
+        top: 25%;
+    }
+    .torque {
+        top: 39%;
+    }
+}

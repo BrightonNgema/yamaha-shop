@@ -1,0 +1,42 @@
+.hexagon-text {
+    font-family: 'rift';
+    font-weight: 600;
+    font-size: 0.3rem;
+    fill: white !important;
+    fill-opacity: 1;
+    -webkit-transition: fill-opacity 0.5s;
+    transition: fill-opacity 0.5s;
+}
+
+
+@media only screen and (max-width: 1400px) and (max-height: 750px) {
+    .hexagon-text {
+        font-size: 0.25rem;
+    }
+}
+
+@media only screen and (max-width: 900px) and (max-height: 900px) {
+    .hexagon-text {
+        font-size: 0.35rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hexagon-text {
+        font-size: 0.59rem;
+    }
+}
+
+/* IPad portrait & Landscape */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .hexagon-text {
+        font-size: 0.41rem;
+    }
+}
+
+/* IPad Landscape */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+    .hexagon-text {
+        font-size: 0.25rem;
+    }
+}

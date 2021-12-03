@@ -1,0 +1,28 @@
+.icon-quantity-style{
+    text-align: left;
+}
+.btn-blue-select{
+    width: 100%;
+    background-color:#009DD2 !important ;
+    color:white;
+}
+.btn-general{
+    height: 3.6rem;
+    color: black;
+}
+.radio-btn-options{
+    margin-top:1rem !important;
+}
+
+.auth-info-text{
+    font-size: 12px !important;
+}
+
+.auth-info-text-bold{
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.formdrop-margin{
+    margin-top: 100px !important;
+}

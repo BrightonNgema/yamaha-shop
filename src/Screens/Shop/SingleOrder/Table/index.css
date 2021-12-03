@@ -1,0 +1,13 @@
+.row-order-table{
+    background-color: #56585a;
+    height: 2rem;
+}
+.icon-img{
+    height: 50px;
+    width: 50px;
+}
+.row-reheight{
+    line-height: 0.5rem !important;
+    color: white !important;
+    font-weight: bold !important;
+}

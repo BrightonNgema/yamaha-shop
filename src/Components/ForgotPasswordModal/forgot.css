@@ -1,0 +1,15 @@
+.forgot-heading{
+    color: #000;
+    font-weight: bold;
+    font-size: 38px !important;
+    margin-bottom: 0px;
+    font-family: rift;
+    padding: 0 0 0 20px;
+}
+
+.forgot-modal-padding{
+    padding: 73px 145px 74px 145px;
+}
+.forgot-button-width{
+    width: 15rem !important;
+}

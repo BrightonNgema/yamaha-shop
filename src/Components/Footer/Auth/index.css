@@ -1,0 +1,21 @@
+/* #simple-menu {
+    background-color: red;
+} */
+.pop-up-link {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.pop-up-link a {
+    text-decoration: none;
+    color: #fff;
+}
+.pop-up-text {
+    padding: 3px 5px;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.pop-up-text:hover {
+    background-color: red;
+    color: #fff;
+}

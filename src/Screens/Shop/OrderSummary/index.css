@@ -1,0 +1,53 @@
+
+
+.checkout-side {
+    background-color: #F4F4F4;
+}
+
+.MuiListItemText-primary {
+    font-weight: bold !important;
+    color: black;
+    font-weight: 600;
+    font-family: rift !important;
+    font-size: 30px !important;
+}
+
+.p-tag-reset {
+    line-height: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.row-highlight {
+    background-color: grey;
+    height: 1rem;
+    line-height: 0.2rem !important;
+    color: white;
+}
+
+.row-highlight.MuiTableRow-head > th{
+    
+    line-height: 0.2rem !important;
+}
+
+tr.MuiTableRow-root.row-highlight > td{
+    line-height: 0.2rem !important;
+    color:white;
+}
+.row-totals{
+    background-color:#F4F4F4 ;
+}
+
+.modal-index{
+    z-index: 1000;
+}
+.max-width-modal{
+    padding:2rem 0 0rem 2rem;
+    margin-right: 2rem;
+    position: relative;
+    align-content: center;
+    width:auto;
+}
+.f-r{
+float:right;
+}
